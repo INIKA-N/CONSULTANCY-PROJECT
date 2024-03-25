@@ -1,6 +1,6 @@
 import React from 'react';
 import './Products.css';
-import { Link } from 'react-scroll';
+import {Link} from 'react-router-dom';
 function Product() {
     return (
         <>
@@ -14,7 +14,8 @@ function Product() {
                         <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
                         <figcaption>
                             <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            {/* <a href="#"><h4>View Product</h4></a> */}
+                            <Link className='links' to='/product1'>product</Link>
                         </figcaption>
                     </div>
                     <div>

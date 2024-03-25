@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import './Home.css';
 
+import About from './About';
+import  Products from './Products';
+import  Testimonials from './Testimonials';
+import  Contact from './Contact';
+import  Footer from './Footer';
 function Home() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [
@@ -52,6 +57,12 @@ function Home() {
                     </div>
                 </div>
             </div>
+            
+ <About/> 
+  <Products/> 
+  <Testimonials/> 
+  <Contact/> 
+  <Footer/>
         </>
     );
 }
