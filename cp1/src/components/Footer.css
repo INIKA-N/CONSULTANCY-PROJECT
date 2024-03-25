@@ -8,41 +8,41 @@
     /* text-align: center; */
   }
   
-  .row {
+  .footer-container .row {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: center; */
   }
   
-  .column {
+  .footer-container .column {
     flex: 1;
     padding: 0 15px;
   }
   
-  .column h3 {
+  .footer-container .column h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
   }
-  .column h4 {
+  .footer-container .column h4 {
     font-size: 1.2em;
     margin-bottom: 10px;
     
   }
-  .column a{
+  .footer-container .column a{
     text-decoration: none;
     color:bisque;
   }
   
-  .column p {
+  .footer-container .column p {
     font-size: 0.9em;
     margin: 0;
   }
   
-  .column:not(:last-child) {
+  .footer-container .column:not(:last-child) {
     border-right: 1px solid #fff; /* Add a border between columns */
   }
   
-  .copyright-section {
+  .footer-container .copyright-section {
     margin-top: 20px;
   }
   

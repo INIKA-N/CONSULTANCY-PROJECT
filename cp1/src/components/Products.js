@@ -1,6 +1,7 @@
+
 import React from 'react';
 import './Products.css';
-import { Link } from 'react-scroll';
+import {Link} from 'react-router-dom';
 function Product() {
     return (
         <>
@@ -11,61 +12,62 @@ function Product() {
                 <h2>Manufacturing Products</h2>
                 <div className='prodiv'>
                     <div>
-                        <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwEkQ_0HJBnJlggR-mroIFBoEjByGMr3f2JPS2y5Oc6wpo0xdh" alt="Chainlink Fencing" />
                         <figcaption>
                             <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            {/* <a href="#"><h4>View Product</h4></a> */}
+                            <Link className='links' to='/prod1'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                     <div>
-                        <img src="https://4.imimg.com/data4/YX/JK/MY-25340937/chainlink-fencing-250x250.jpg"/>
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQktlWBQIfyvhff29BbgV9iueuUTrr7xNWzGR9u3gcfVXeGjOZZ"/>
                         <figcaption>
-                            <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            <p>Twisted Fence</p>
+                            <Link className='links' to='/prod2'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                     <div>
-                        <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuC8MuyJekMbcuByKTP9_nmNILsaeI9J2eSNBV1WeJRp59rDb_" alt="Chainlink Fencing" />
                         <figcaption>
-                            <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            <p>Pvc Chain link Fence</p>
+                            <Link className='links' to='/prod3'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                     <div>
-                        <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqZhKnABll1cO6o8VPQYqBVBjuARKKMxieb3zb0_xDEmx4UAF3" alt="Chainlink Fencing" />
                         <figcaption>
-                            <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            <p>Chicken Mesh</p>
+                            <Link className='links' to='/prod4'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                 </div>
                 <div className='prodiv1'>
                 <div>
-                        <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3q9mIJtC6Zf_mvgCFQHcrkrT-gTM0eM-TZb9llyBShYMr7iZx" alt="Chainlink Fencing" />
                         <figcaption>
-                            <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            <p>Poultry Side Mesh Fencing</p>
+                          <Link className='links' to='/prod5'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                     <div>
-                        <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRv9h-v_sh2ZnWEQoeX14WOy99F0InDqmxaYBmQYDiVZehXOtuq" alt="Chainlink Fencing" />
                         <figcaption>
-                            <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            <p>Weld Mesh</p>
+                            <Link className='links' to='/prod6'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                     <div>
-                        <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSznrHLNuH2VuHdAp0Zwt_D61-TzVSvMWcsmQ1NwD0XGuB41t_b" alt="Chainlink Fencing" />
                         <figcaption>
-                            <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            <p>Plastic Wire Mesh</p>
+                            <Link className='links' to='/prod7'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                     <div>
-                        <img src="https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp" alt="Chainlink Fencing" />
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQqpq_i1amkyAo-L858G0_uFxEXpDm8v6uhRxnrtArl2FNloMAN" alt="Chainlink Fencing" />
                         <figcaption>
-                            <p>Chainlink Fencing</p>
-                            <a href="#"><h4>View Product</h4></a>
+                            <p>Wire Mesh(GI + PVC)</p>
+                            <Link className='links' to='/prod8'>view product &#8594;</Link>
                         </figcaption>
                     </div>
                 </div>
