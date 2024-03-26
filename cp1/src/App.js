@@ -14,7 +14,7 @@ import Prod5 from './components/Prod5';
 import Prod6 from './components/Prod6';
 import Prod7 from './components/Prod7';
 import Prod8 from './components/Prod8';
-
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -28,6 +28,7 @@ function App() {
           <Route path='/prod' element={<Products />} />
           <Route path='/test' element={<Testimonials />} />
           <Route path='/contact-container' element={<Contact/>} />
+          <Route path='/foot' element={<Footer />} />
           <Route path='/prod1' element={<Prod1 />} />
           <Route path='/prod2' element={<Prod2 />} />
           <Route path='/prod3' element={<Prod3 />} />

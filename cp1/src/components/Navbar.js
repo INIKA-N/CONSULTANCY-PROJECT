@@ -18,7 +18,7 @@ function Navbar() {
         <div className={`bar3 ${showNav ? 'change' : ''}`}></div>
       </div>
       <nav className={`nav-links ${showNav ? 'show' : ''}`}>
-        <Link to='container' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Home</Link>
+        <Link to='home' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Home</Link>
         <Link to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</Link>
         <Link to='prod' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Products</Link>
         <Link to='test' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Testimonials</Link>

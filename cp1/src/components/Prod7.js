@@ -7,7 +7,8 @@ import './Prod1.css';
 function Prod7() {
   return (
     <div className='total'>
-      <p>MANUFACTURING SOLUTIONS</p>
+      <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p>
+      
       <h1>PLASTIC WIRE MESH FENCING</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -17,7 +18,7 @@ function Prod7() {
         </div>
         <div className='con2'>
           <p>Plastic wire mesh fencing is a lightweight and flexible fencing solution made from high-density polyethylene (HDPE). It is commonly used for various applications such as garden fencing, poultry enclosures, and crop protection.<br></br>Plastic wire mesh fencing is resistant to rust, corrosion, and weather conditions, making it suitable for outdoor use. It is available in different mesh sizes and colors to suit different purposes and aesthetic preferences. The plastic material provides durability and longevity, requiring minimal maintenance.</p>
-          <Link to=''><button>Get Quote</button></Link>
+          <Link to='footer'><button>Get Quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -66,7 +67,7 @@ function Prod7() {
           </tbody>
         </table>
       </div>
-      <Footer />
+      <div id='footer'><Footer /></div>
     </div>
   );
 }

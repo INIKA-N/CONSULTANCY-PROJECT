@@ -7,7 +7,8 @@ import './Prod1.css';
 function Prod6() {
   return (
     <div className='total'>
-      <p>MANUFACTURING SOLUTIONS</p>
+      <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p>
+      
       <h1>WILD MESH FENCING</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -17,7 +18,7 @@ function Prod6() {
         </div>
         <div className='con2'>
           <p>Wild mesh fencing is commonly used for fencing large areas of land to prevent wild animals such as deer, rabbits, and foxes from entering. It is made of high-tensile steel wire mesh with small openings to effectively contain animals while providing visibility and airflow.<br></br>Wild mesh fencing is durable, weather-resistant, and easy to install, making it suitable for various outdoor applications, including agricultural fields, forests, and nature reserves. It helps to protect crops, plants, and property from damage caused by wildlife.</p>
-          <Link to=''><button>Get Quote</button></Link>
+          <Link to='footer'><button>Get Quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -66,7 +67,7 @@ function Prod6() {
           </tbody>
         </table>
       </div>
-      <Footer />
+      <div id='footer'><Footer /></div>
     </div>
   );
 }

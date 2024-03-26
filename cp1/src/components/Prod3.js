@@ -7,7 +7,8 @@ import './Prod1.css';
 function Prod3() {
   return (
     <div className='total'>
-      <p>MANUFACTURING SOLUTIONS</p>
+      <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p>
+      
       <h1>PVC CHAIN LINK FENCE</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -17,7 +18,7 @@ function Prod3() {
         </div>
         <div className='con2'>
           <p>PVC coated chain link fence also called vinyl coated or plastic coated chain link mesh is woven accurately with PVC wire in green color. PVC coated chain link provides style to your fence with color coordinated, vinyl coated chain wire fence. The heavy fence coated with fused and bonded vinyl is guaranteed for years of trouble-free use.<br></br>Chain link fence with PVC coated is lightweight and perfectly resists aggressive environmental influences, and it has an attractive appearance. So it is the best choice for gardens, tennis courts, sports fields fencing. And it is also suitable for using in the oil field, sea around and coast of the salt sea. Green or black chain link fencing is also suitable for creating indoor dog pens</p>
-          <Link to=''><button>Get Quote</button></Link>
+          <Link to='footer'><button>Get Quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -85,7 +86,7 @@ function Prod3() {
           </tbody>
         </table>
       </div>
-      <Footer />
+      <div id='footer'><Footer /></div>
     </div>
   );
 }

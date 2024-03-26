@@ -7,7 +7,8 @@ import './Prod1.css';
 function Prod4() {
   return (
     <div className='total'>
-      <p>MANUFACTURING SOLUTIONS</p>
+      <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p>
+     
       <h1>CHICKEN MESH</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -17,7 +18,7 @@ function Prod4() {
         </div>
         <div className='con2'>
           <p>Chicken wire mesh, or poultry netting, is a mesh of wire commonly used to fence poultry livestock. It is made of thin, flexible, galvanized steel wire, with hexagonal gaps. Available in various gauges and mesh sizes, chicken mesh provides a secure and flexible enclosure for chickens and other small animals.<br></br>Chicken wire mesh is also used in gardening and agriculture for plant protection, compost bins, and trellises. Its versatility and affordability make it a popular choice for a wide range of applications.</p>
-          <Link to=''><button>Get Quote</button></Link>
+          <Link to='footer'><button>Get Quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -75,7 +76,7 @@ function Prod4() {
           </tbody>
         </table>
       </div>
-      <Footer />
+      <div id='footer'><Footer /></div>
     </div>
   );
 }

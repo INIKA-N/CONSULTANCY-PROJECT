@@ -1,4 +1,5 @@
-import React from 'react';
+
+           import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { Link } from 'react-scroll';
@@ -7,7 +8,8 @@ import './Prod1.css';
 function Prod1() {
   return (
     <div className='total'>
-      <p>MANUFACTURING SOLUTIONS</p>
+      <Navbar />
+      <p><span style={{ color: 'rgb(7, 154, 246)' }}>SOLUTIONS</span></p>
       <h1>CHAINLINK FENCING</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -17,7 +19,8 @@ function Prod1() {
         </div>
         <div className='con2'>
           <p>Chain Link Fence Manufacturers in Coimbatore is ideally designed to meet applications like fencing of farms, animal’s enclosures, roof support in long wall mining, factories, houses, flying area, etc. These are available in standard as well as customised specifications as per the requirement of the application area. It also complies with international standards when it comes to high durability, tensile strength and resistance to corrosion.<br></br>These are also considered ideal for indoor and outdoor protection. Offered fence is manufactured using supreme quality material and highly developed techniques. The offered fence is provided in several specifications at most reasonable price range to the customers.</p>
-          <Link to=''><button>get quote</button></Link>
+          {/* Link to scroll to the footer section */}
+          <Link to='footer' smooth={true} duration={500}><button>get quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -139,10 +142,9 @@ function Prod1() {
            </table>
            </div>
            <br></br>
-           <div><Footer/></div>
-           
-           </div>
-          
+      <div id='footer'><Footer /></div>
+    </div>
   );
 }
+
 export default Prod1;

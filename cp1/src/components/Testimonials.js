@@ -21,8 +21,8 @@ function Testimonials() {
                 <p>OUR MISSION</p>
                 <h1>To offer superior quality products by</h1>
                 <h1>following the best business practices</h1>
-                <h1>resulting in employee and customer </h1>
-                <h1>satisfaction.</h1>
+                <h1>resulting in <span style={{ color:' rgb(7, 154, 246)'}}> employee and customer</span>  </h1>
+                <h1><span style={{ color:' rgb(7, 154, 246)'}}> satisfaction.</span></h1>
                 <Link to=""><button>What our customers say</button></Link>
             </div>
 

@@ -8,8 +8,8 @@ function Product() {
             <div className='prod'>
                 <p>YOUR SAFETY IS OUR PRIORITY</p>
                 <h1>Superior Quality Products,</h1>
-                 <h1>   Fencing & Trading Solutions</h1>
-                <h2>Manufacturing Products</h2>
+                 <h1><span style={{ color:' rgb(7, 154, 246)'}}> Fencing & Trading Solutions</span>  </h1>
+                <h2>Products</h2>
                 <div className='prodiv'>
                     <div>
                         <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwEkQ_0HJBnJlggR-mroIFBoEjByGMr3f2JPS2y5Oc6wpo0xdh" alt="Chainlink Fencing" />

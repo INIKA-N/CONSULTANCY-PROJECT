@@ -8,7 +8,8 @@ function Prod2() {
   return (
     <div className='total'>
       
-      <p>MANUFACTURING SOLUTIONS</p>
+      <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p>
+      
       <h1>TWISTED FENCE</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -18,7 +19,7 @@ function Prod2() {
         </div>
         <div className='con2'>
           <p>Twist or barb edge is obtained by twisting adjacent pairs of wire ends together in a close helix of 1-1/2 machine turns, which is equivalent to 3 full twists, and cutting the wire ends at an angle. The wire ends beyond the twist shall be at least 1/4 in. long. This type of selvage is not used on fabric with a mesh size of less than 2 in.</p>
-          <Link to=''><button>get quote</button></Link>
+          <Link to='footer'><button>get quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -63,7 +64,7 @@ function Prod2() {
         </table>
       </div>
       <br />
-      <Footer />
+      <div id='footer'><Footer /></div>
     </div>
   );
 }

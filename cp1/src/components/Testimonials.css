@@ -3,11 +3,13 @@
 .test {
     width: 100%;
     height: 600px;
+    border:2px solid white;
 }
 
 .test p {
     text-align: center;
     padding-top: 100px;
+    color: rgb(7, 154, 246);
 }
 
 .test h1 {
@@ -18,6 +20,12 @@
 .test button {
     margin-left: 720px;
     margin-top: 50px;
+    background-color:rgb(7, 154, 246);
+    color:white;
+    padding:10px;
+    border:none;
+    text-decoration: none;
+    border-radius: 15px;
 }
 
 /* Styling for the slider */

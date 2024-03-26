@@ -7,7 +7,8 @@ import './Prod1.css';
 function Prod5() {
   return (
     <div className='total'>
-      <p>MANUFACTURING SOLUTIONS</p>
+      <p><span style={{ color:' rgb(7, 154, 246)'}}> SOLUTIONS</span></p>
+      
       <h1>POULTRY SIDE MESH FENCING</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -17,7 +18,7 @@ function Prod5() {
         </div>
         <div className='con2'>
           <p>Poultry side mesh fencing is specifically designed for poultry farms to create secure enclosures for chickens, ducks, and other birds. It is made of high-quality galvanized steel wire with small mesh size to prevent predators from entering while allowing adequate ventilation and sunlight.<br></br>Poultry side mesh fencing helps to protect poultry from predators such as foxes, raccoons, and birds of prey. It also helps to prevent birds from escaping the enclosure, keeping them safe and secure.</p>
-          <Link to=''><button>Get Quote</button></Link>
+          <Link to='footer'><button>Get Quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -84,7 +85,7 @@ function Prod5() {
           </tbody>
         </table>
       </div>
-      <Footer />
+      <div id='footer'><Footer /></div>
     </div>
   );
 }

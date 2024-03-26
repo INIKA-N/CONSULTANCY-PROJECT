@@ -13,7 +13,7 @@ const Contact = () => {
   return (
    
     <div  className="contact-container">
-      <h5 className='animated-underline'>Contact Me </h5>
+      <h5 className='animated-underline'>Contact Us </h5>
       <form >
       <div className="input-row">
         <input type="text" name="user name" placeholder="  Your Name" required className="name-input" />

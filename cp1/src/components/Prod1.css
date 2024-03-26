@@ -40,6 +40,12 @@
 
 .pr1 .con2 button {
     margin-bottom: 20px;
+    background-color: rgb(7, 154, 246);
+    color:white;
+    padding:10px;
+    border:none;
+    text-decoration: none;
+    border-radius: 15px;
 }
 
 @keyframes rotateWithPause {
@@ -74,7 +80,8 @@
 .table-like-structure {
     width: 100%;
     margin-top: 40px; /* Adjusted margin-top */
-    overflow-x: auto; /* Add horizontal scrollbar if needed */
+    overflow-x: auto;
+    margin-bottom: 15px; /* Add horizontal scrollbar if needed */
 }
 
 .table-like-structure table {
@@ -86,10 +93,12 @@
     border: 1px solid black;
     padding: 8px; /* Adjusted padding */
     text-align: left;
+    
 }
 
 .table-like-structure th {
-    background-color: #f2f2f2;
+    background-color: rgb(111, 195, 247);
+    
 }
 
 @media screen and (max-width: 1000px) {

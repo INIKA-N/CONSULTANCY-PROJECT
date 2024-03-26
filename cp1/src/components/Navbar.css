@@ -1,7 +1,7 @@
 /* Navbar.css */
 
 .bar {
-    background-color: aliceblue; /* Set your desired background color */
+    background-color: white; /* Set your desired background color */
     padding: 20px 20px; 
     position: fixed;
     top: 0;
@@ -13,10 +13,11 @@ nav {
     display: flex;
     justify-content: flex-end; /* Move elements to the right */
     align-items: center;
+    font-size: 20px;
 }
   
 nav a {
-    color: #111010; /* Set your desired text color */
+    color: rgb(7, 154, 246); /* Set your desired text color */
     text-decoration: none;
     margin: 0 45px; /* Adjust margin as needed */
     cursor: pointer;
@@ -24,7 +25,7 @@ nav a {
 }
   
 nav a:hover {
-    color: lightcoral; /* Set your desired hover color */
+    color: rgb(8, 0, 0); /* Set your desired hover color */
 }
 
 /* Add this media query to hide the nav links by default for smaller screens */
@@ -36,7 +37,7 @@ nav a:hover {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: aliceblue;
+        background-color: white;
         z-index: 1000;
     }
 

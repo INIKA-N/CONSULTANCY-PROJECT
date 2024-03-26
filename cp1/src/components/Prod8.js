@@ -7,7 +7,8 @@ import './Prod1.css';
 function Prod8() {
   return (
     <div className='total'>
-      <p>MANUFACTURING SOLUTIONS</p>
+      <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p>
+      
       <h1>WIRE MESH (GI + PVC)</h1>
       <div className='pr1'>
         <div className='con1'>
@@ -17,7 +18,7 @@ function Prod8() {
         </div>
         <div className='con2'>
           <p>Wire mesh with GI (Galvanized Iron) and PVC coating offers a durable and corrosion-resistant fencing solution suitable for various applications, including perimeter fencing, security enclosures, and animal cages.<br></br>The galvanized iron wire provides excellent rust and corrosion resistance, while the PVC coating adds further protection and enhances the appearance of the fence. This combination ensures longevity and low maintenance requirements for the fencing.<br></br>Wire mesh with GI and PVC coating is available in different mesh sizes, wire diameters, and colors to meet different requirements and aesthetic preferences.</p>
-          <Link to=''><button>Get Quote</button></Link>
+          <Link to='footer'><button>Get Quote</button></Link>
         </div>
       </div>
       {/* Table-like structure */}
@@ -66,7 +67,7 @@ function Prod8() {
           </tbody>
         </table>
       </div>
-      <Footer />
+      <div id='footer'><Footer /></div>
     </div>
   );
 }

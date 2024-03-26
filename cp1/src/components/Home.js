@@ -1,24 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import Navbar from './Navbar';
 import './Home.css';
 
 import About from './About';
-import  Products from './Products';
-import  Testimonials from './Testimonials';
-import  Contact from './Contact';
-import  Footer from './Footer';
+import Products from './Products';
+import Testimonials from './Testimonials';
+import Contact from './Contact';
+import Footer from './Footer';
+
 function Home() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [
-        "https://www.deltaware.in/images/blog/fence/steel-fence-post-left_hud6ca1be5b67bf579231c4a3c33f46d4a_80192_900x450_resize_q100_h2_box.webp",
-        "https://www.alamodecksandfence.com/wp-content/uploads/2022/03/chain-link-fence-texas-soccer-fields.png",
-        "https://5.imimg.com/data5/VX/SB/LP/SELLER-18848967/pvc-coated-chainlink-fencing-500x500.jpg"
+        "https://happyvalentinesday2020.online/pics/www.walcoom.com/img/pro/farm-barbed-wire-fence.jpg",
+        "https://www.maimoonrazorwire.com/img/Property%20Fencing.jpg",
     ];
 
     const captions = [
-        "Steel Fence Post",
-        "Chain Link Fence at Texas Soccer Fields",
-        "PVC Coated Chainlink Fencing"
+        "Keeping your assets safe for over one decades",
+        "Premium quality fencing at affordable pricing"
     ];
 
     const nextSlide = () => {
@@ -46,23 +46,25 @@ function Home() {
                 <div className="slideshow-container">
                     <img src={images[currentImageIndex]} alt="" />
                     <div className="caption">{captions[currentImageIndex]}</div>
-                    <div className="dot-container">
-                        {images.map((_, index) => (
-                            <span
-                                key={index}
-                                className={`dot ${index === currentImageIndex ? 'active' : ''}`}
-                                onClick={() => handleDotClick(index)}
-                            ></span>
-                        ))}
-                    </div>
+                    {/* <Link to='prod' className="button-over-caption"><button>Explore Our Products</button></Link> */}
+                    <button><Link to='prod' className="button-over-caption">Explore Our Solutions</Link></button>
+                </div>
+                <div className="dot-container">
+                    {images.map((_, index) => (
+                        <span
+                            key={index}
+                            className={`dot ${index === currentImageIndex ? 'active' : ''}`}
+                            onClick={() => handleDotClick(index)}
+                        ></span>
+                    ))}
                 </div>
             </div>
-            
- <About/> 
-  <Products/> 
-  <Testimonials/> 
-  <Contact/> 
-  <Footer/>
+
+            <About />
+            <Products />
+            <Testimonials />
+            <Contact />
+            <Footer />
         </>
     );
 }
