@@ -7,7 +7,7 @@ import './Prod1.css';
 function Prod6() {
   return (
     <div className='total'>
-      <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p>
+      {/* <p><span style={{ color:' rgb(7, 154, 246)'}}>SOLUTIONS</span></p> */}
       
       <h1>WILD MESH FENCING</h1>
       <div className='pr1'>

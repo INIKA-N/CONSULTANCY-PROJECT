@@ -83,6 +83,19 @@
 }
 
 
+.logo-container .logo {
+    position: absolute; /* Position the logo absolutely */
+    margin-top: 10%; /* Align the top of the logo to the middle of the parent container */
+    left: 50%; /* Align the left of the logo to the middle of the parent container */
+    transform: translate(-50%, -50%); /* Center the logo both horizontally and vertically */
+    width: 100px; /* Set the width of the logo */
+    height: auto; /* Allow the height to adjust proportionally */
+    border-bottom: none; /* Remove the underline */
+    z-index: 2; /* Ensure the logo is above other content */
+}
+
+
+
 /* Remaining styles... */
 
 

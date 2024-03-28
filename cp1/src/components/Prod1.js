@@ -8,8 +8,7 @@ import './Prod1.css';
 function Prod1() {
   return (
     <div className='total'>
-      <Navbar />
-      <p><span style={{ color: 'rgb(7, 154, 246)' }}>SOLUTIONS</span></p>
+      {/* <p><span style={{ color: 'rgb(7, 154, 246)' }}>SOLUTIONS</span></p> */}
       <h1>CHAINLINK FENCING</h1>
       <div className='pr1'>
         <div className='con1'>
